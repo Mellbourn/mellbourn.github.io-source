@@ -172,7 +172,7 @@ const Index = () => (
         offset={1.1}
         factor={2}
       />
-      <Content speed={0.4} offset={1.2} factor={2}>
+      {/* <Content speed={0.4} offset={1.2} factor={2}>
         <Inner>
           <Title>Projects</Title>
           <ProjectsWrapper>
@@ -206,7 +206,7 @@ const Index = () => (
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
-      </Content>
+      </Content> */}
       <Divider speed={0.1} offset={1} factor={2}>
         <UpDown>
           <SVG icon="box" width={6} fill={colors.white} left="85%" top="75%" />
