@@ -40,6 +40,7 @@
   "scripts": {
     "develop": "gatsby develop -o",
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master --remote mellbourn.github.io",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "predevelop": "postcss tailwind.css -o tailwind.custom.css",
