@@ -159,9 +159,11 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm John Doe.
+            Hello, <br /> We are Capenta.
           </BigTitle>
-          <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+          <Subtitle>
+            We are cutting edge web development consultants. We love all the techs. React, GraphQL, Apollo, TypeScript.
+          </Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
