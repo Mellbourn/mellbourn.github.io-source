@@ -2,8 +2,8 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Parallax, ParallaxLayer } from 'react-spring';
-import 'typeface-cantata-one';
-import 'typeface-open-sans';
+import 'typeface-nunito';
+import 'typeface-nunito-sans';
 
 import SEO from '../components/SEO';
 import SVG from '../components/SVG';

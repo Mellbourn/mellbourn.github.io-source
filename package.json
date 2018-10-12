@@ -28,6 +28,8 @@
     "react-spring": "^5.7.2",
     "tailwindcss": "^0.6.5",
     "typeface-cantata-one": "^0.0.54",
+    "typeface-nunito": "^0.0.54",
+    "typeface-nunito-sans": "^0.0.54",
     "typeface-open-sans": "^0.0.54"
   },
   "keywords": [
