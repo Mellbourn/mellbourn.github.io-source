@@ -251,21 +251,14 @@ const Index = () => (
       </Divider>
       <Content speed={0.4} offset={3}>
         <Inner>
-          <Title>About</Title>
+          <Title>About Klas Mellbourn</Title>
           <AboutHero>
-            <Avatar src={avatar} alt="John Doe" />
+            <Avatar src={avatar} alt="Klas Mellbourn" />
             <AboutSub>
-              The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-              Emoji into my speech to better express myself. Winky face.
+              I love programming. I love learning. I love building things. Software development lets me do all of it.
             </AboutSub>
           </AboutHero>
-          <AboutDesc>
-            You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-            every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-            make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The
-            kids want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that
-            all right?
-          </AboutDesc>
+          <AboutDesc>Technologies I enjoy include JavaScript, TypeScript, React, Node, GraphQL, Apollo</AboutDesc>
         </Inner>
       </Content>
       <Divider fill="#23262b" speed={0.2} offset={4}>
@@ -288,15 +281,12 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:klas@mellbourn.net">Hi</a> or find me on other platforms:{' '}
+            <a href="https://stackoverflow.com/story/klasmellbourn">Stack Overflow</a> &{' '}
+            <a href="https://github.com/mellbourn">GitHub</a>
           </ContactText>
         </Inner>
-        <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LeKoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
-        </Footer>
+        <Footer>&copy; 2018 by Capenta AB.</Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
         <UpDown>
