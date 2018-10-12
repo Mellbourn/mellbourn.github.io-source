@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Gatsby Starter Portfolio Cara",
+  "name": "capenta",
+  "description": "Capenta website based on Gatsby Starter Portfolio Cara",
   "version": "2.0.0",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Klas Mellbourn <klas@mellbourn.net>",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-tailwind": "^0.1.10",
