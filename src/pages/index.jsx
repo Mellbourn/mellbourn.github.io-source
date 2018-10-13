@@ -188,7 +188,7 @@ const Index = () => (
               link="https://www.eurostars-eureka.eu/project/id/11626"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Developed response web app for medical imaging.
+              Developed responsive web app for medical imaging.
             </ProjectCard>
             {/* <ProjectCard
               title="Tomb Raider"
