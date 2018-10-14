@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600">
+  <g fill='transparent' stroke-linecap="round" stroke-width='15' stroke='yellow'>
+    <path d='M 200 150 A 50 50 0 0 1 114 185' />
+    <path d='M 217 150 A 67 67 0 0 1 83 150'/>
+    <path d='M 234 150 A 84 84 0 1 1 81 101'/>
+    <path d='M 251 150 A 101 101 0 1 1 115 55'/>
+    <path d='M 268 150 A 118 118 0 1 1 149 32'/>
+  </g>
+</svg>
