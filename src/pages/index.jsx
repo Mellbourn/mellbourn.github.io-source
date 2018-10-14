@@ -1,19 +1,22 @@
 /* global tw */
-import React from 'react';
-import styled from 'react-emotion';
-import { Parallax, ParallaxLayer } from 'react-spring';
+
 import 'typeface-nunito';
 import 'typeface-nunito-sans';
+import '../styles/global';
 
+import { Parallax, ParallaxLayer } from 'react-spring';
+import { UpDown, UpDownWide, rotate, waveAnimation } from '../styles/animations';
+
+import ProjectCard from '../components/ProjectCard';
+import React from 'react';
 import SEO from '../components/SEO';
 import SVG from '../components/SVG';
-import ProjectCard from '../components/ProjectCard';
-import { rotate, UpDown, UpDownWide, waveAnimation } from '../styles/animations';
-import { hidden } from '../styles/utils';
 import { colors } from '../../tailwind';
+import { hidden } from '../styles/utils';
+import klas from '../images/klas.jpg';
+import rolf from '../images/rolf.jpg';
+import styled from 'react-emotion';
 import triangle from '../images/triangle.svg';
-import avatar from '../images/avatar.jpg';
-import '../styles/global';
 
 const Divider = styled(ParallaxLayer)`
   ${tw('absolute w-full h-full')};
@@ -190,20 +193,13 @@ const Index = () => (
             >
               Developed responsive web app for medical imaging.
             </ProjectCard>
-            {/* <ProjectCard
-              title="Tomb Raider"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            <ProjectCard
+              title="Nasdaq"
+              link="https://business.nasdaq.com/financial-framework/index.html"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              Recreation of a Tomb Raider Wallpaper (Fan Art)
+              Developed real-time UI framework for Nasdaq Financial Framework
             </ProjectCard>
-            <ProjectCard
-              title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
-              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-            >
-              A fantasy image manipulation relocating the habitat of wild animals.
-            </ProjectCard> */}
           </ProjectsWrapper>
         </Inner>
       </Content>
@@ -253,12 +249,21 @@ const Index = () => (
         <Inner>
           <Title>About Klas Mellbourn</Title>
           <AboutHero>
-            <Avatar src={avatar} alt="Klas Mellbourn" />
+            <Avatar src={klas} alt="Klas Mellbourn" />
             <AboutSub>
               I love programming. I love learning. I love building things. Software development lets me do all of it.
             </AboutSub>
           </AboutHero>
           <AboutDesc>Technologies I enjoy include JavaScript, TypeScript, React, Node, GraphQL, Apollo</AboutDesc>
+          <Title>About Rolf Norrback</Title>
+          <AboutHero>
+            <Avatar src={rolf} alt="Klas Mellbourn" />
+            <AboutSub>
+              Performance and usability is my top priorities when developing in JavaScript.
+              I am a full stack developer trying to focus on the front-end.
+            </AboutSub>
+          </AboutHero>
+          <AboutDesc>Technologies I enjoy include JavaScript, React and Java</AboutDesc>
         </Inner>
       </Content>
       <Divider fill="#23262b" speed={0.2} offset={4}>
