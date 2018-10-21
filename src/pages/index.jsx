@@ -5,17 +5,17 @@ import 'typeface-nunito-sans';
 import '../styles/global';
 
 import { Parallax, ParallaxLayer } from 'react-spring';
+import React from 'react';
+import styled from 'react-emotion';
 import { UpDown, UpDownWide, rotate, waveAnimation } from '../styles/animations';
 
 import ProjectCard from '../components/ProjectCard';
-import React from 'react';
 import SEO from '../components/SEO';
 import SVG from '../components/SVG';
 import { colors } from '../../tailwind';
 import { hidden } from '../styles/utils';
 import klas from '../images/klas.jpg';
 import rolf from '../images/rolf.jpg';
-import styled from 'react-emotion';
 import triangle from '../images/triangle.svg';
 
 const Divider = styled(ParallaxLayer)`
@@ -259,8 +259,8 @@ const Index = () => (
           <AboutHero>
             <Avatar src={rolf} alt="Klas Mellbourn" />
             <AboutSub>
-              Performance and usability is my top priorities when developing in JavaScript.
-              I am a full stack developer trying to focus on the front-end.
+              Performance and usability is my top priorities when developing in JavaScript. I am a full stack developer
+              focusing on the front-end.
             </AboutSub>
           </AboutHero>
           <AboutDesc>Technologies I enjoy include JavaScript, React and Java</AboutDesc>
