@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-function arc(size, radius, startDegrees, endDegrees, isCounterClockwise) {
+const arc = (size, radius, startDegrees, endDegrees) => {
   const offsetRadians = 0;
   const sweepFlag = 1;
   const startRadians = offsetRadians + (startDegrees * Math.PI) / 180;
@@ -14,15 +14,16 @@ function arc(size, radius, startDegrees, endDegrees, isCounterClockwise) {
   return <path d={`M ${startX} ${startY} A ${radius} ${radius} ${offsetRadians} ${largeArc} ${sweepFlag} ${endX} ${endY}`} />;
 }
 
-function endPoint(size, strokeWidth, radius, degrees) {
+const endPoint = (size, strokeWidth, radius, degrees) => {
   const radians = (degrees * Math.PI) / 180;
   const x = size / 2 + radius * Math.cos(radians).toFixed(3);
   const y = size / 2 + radius * Math.sin(radians).toFixed(3);
-  return <circle fill="yellow" r={strokeWidth} cx={x} cy={y} />
+  return <circle fill="yellow" r={strokeWidth} cx={x} cy={y} />;
 }
 
 const CapentaLogo = ({ size }) => (
   <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+    <circle fill="black" r={size / 2} cx={size / 2} cy={size / 2} />
     <g fill="transparent" strokeLinecap="round" strokeWidth="10" stroke="yellow">
       {arc(size, 50, 0, 160)}
       {endPoint(size, 3, 50, 0)}

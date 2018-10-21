@@ -1,9 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600">
-  <g fill='transparent' stroke-linecap="round" stroke-width='15' stroke='yellow'>
-    <path d='M 200 150 A 50 50 0 0 1 114 185' />
-    <path d='M 217 150 A 67 67 0 0 1 83 150'/>
-    <path d='M 234 150 A 84 84 0 1 1 81 101'/>
-    <path d='M 251 150 A 101 101 0 1 1 115 55'/>
-    <path d='M 268 150 A 118 118 0 1 1 149 32'/>
+<svg xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <circle fill="black" r="150" cx="150" cy="150"></circle>
+  <g fill="transparent" stroke-linecap="round" stroke-width="10" stroke="yellow">
+    <path d="M 200 150 A 50 50 0 0 1 103 167.1"></path>
+    <circle fill="yellow" r="3" cx="200" cy="150"></circle>
+    <circle fill="yellow" r="3" cx="103" cy="167.1"></circle>
+    <path d="M 208.022 183.5 A 67 67 0 0 1 84.005 138.342"></path>
+    <circle fill="yellow" r="3" cx="208.022" cy="183.5"></circle>
+    <circle fill="yellow" r="3" cx="84.005" cy="138.342"></circle>
+    <path d="M 192 222.744 A 84 84 0 0 1 85.656 95.988"></path>
+    <circle fill="yellow" r="3" cx="192" cy="222.744"></circle>
+    <circle fill="yellow" r="3" cx="85.656" cy="95.988"></circle>
+    <path d="M 150 251 A 101 101 0 0 1 115.458 55.06"></path>
+    <circle fill="yellow" r="3" cx="150" cy="251"></circle>
+    <circle fill="yellow" r="3" cx="115.458" cy="55.06"></circle>
+    <path d="M 91 252.188 A 118 118 0 0 1 150 32"></path>
+    <circle fill="yellow" r="3" cx="91" cy="252.188"></circle>
+    <circle fill="yellow" r="3" cx="150" cy="32"></circle>
   </g>
 </svg>
