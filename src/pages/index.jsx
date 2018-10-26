@@ -18,6 +18,7 @@ import klas from '../images/klas.jpg';
 import rolf from '../images/rolf.jpg';
 import triangle from '../images/triangle.svg';
 import capentaLogo from '../images/capenta.svg';
+import CapentaLogo from '../components/CapentaLogo';
 
 const Divider = styled(ParallaxLayer)`
   ${tw('absolute w-full h-full')};
@@ -185,6 +186,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <LogoContainer>
+            <CapentaLogo size={100} />
             <Logo />
             <BigTitle>
               Hello, <br /> We are Capenta.
