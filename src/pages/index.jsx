@@ -179,12 +179,10 @@ const Index = () => (
         <Hero>
           <LogoContainer>
             <CapentaLogo size={200} />
-            <BigTitle>
-              Hello, <br /> We are Capenta.
-            </BigTitle>
+            <BigTitle>Capenta</BigTitle>
           </LogoContainer>
           <Subtitle>
-            We are cutting edge web development consultants. We love all the techs. React, GraphQL, Apollo, TypeScript.
+            We are cutting edge web development consultants. We love all the techs: React, GraphQL, Apollo, TypeScript.
           </Subtitle>
         </Hero>
       </Content>
