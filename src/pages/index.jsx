@@ -18,6 +18,7 @@ import klas from '../images/klas.jpg';
 import rolf from '../images/rolf.jpg';
 import triangle from '../images/triangle.svg';
 import capentaLogo from '../images/capenta.svg';
+import CapentaLogo from '../components/CapentaLogo';
 
 const Divider = styled(ParallaxLayer)`
   ${tw('absolute w-full h-full')};
@@ -56,14 +57,6 @@ const LogoContainer = styled.div`
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
-`;
-
-const Logo = styled.div`
-  width: 200px;
-  height: 200px;
-  background: url(${capentaLogo});
-  background-size: 200px;
-  animation: ${rotate} 300s linear infinite;
 `;
 
 const BigTitle = styled.h1`
@@ -185,7 +178,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <LogoContainer>
-            <Logo />
+            <CapentaLogo size={200} />
             <BigTitle>
               Hello, <br /> We are Capenta.
             </BigTitle>

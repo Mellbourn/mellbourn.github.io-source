@@ -44,7 +44,8 @@
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "predevelop": "postcss tailwind.css -o tailwind.custom.css",
-    "prebuild": "postcss tailwind.css -o tailwind.custom.css"
+    "prebuild": "postcss tailwind.css -o tailwind.custom.css",
+    "favicon": "scripts/create-favicon"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
