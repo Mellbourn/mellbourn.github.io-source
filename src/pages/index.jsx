@@ -17,6 +17,7 @@ import { hidden } from '../styles/utils';
 import klas from '../images/klas.jpg';
 import rolf from '../images/rolf.jpg';
 import triangle from '../images/triangle.svg';
+import capentaLogo from '../images/capenta.svg';
 
 const Divider = styled(ParallaxLayer)`
   ${tw('absolute w-full h-full')};
@@ -43,8 +44,30 @@ const Inner = styled.div`
   ${tw('w-full xxl:w-2/3 text-center lg:text-left')};
 `;
 
+const LogoContainer = styled.div`
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  @media (max-width: 1200px) {
+    grid-gap: 3rem;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+`;
+
+const Logo = styled.div`
+  width: 200px;
+  height: 200px;
+  background: url(${capentaLogo});
+  background-size: 200px;
+  animation: ${rotate} 300s linear infinite;
+`;
+
 const BigTitle = styled.h1`
-  ${tw('text-5xl lg:text-6xl font-serif text-white mb-6 tracking-wide')};
+  ${tw('text-5xl lg:text-6xl font-serif text-white mb-6 tracking-wide relative')};
   text-shadow: 0 5px 35px rgba(255, 255, 255, 0.15);
 `;
 
@@ -161,9 +184,12 @@ const Index = () => (
       </Divider>
       <Content speed={0.4} offset={0}>
         <Hero>
-          <BigTitle>
-            Hello, <br /> We are Capenta.
-          </BigTitle>
+          <LogoContainer>
+            <Logo />
+            <BigTitle>
+              Hello, <br /> We are Capenta.
+            </BigTitle>
+          </LogoContainer>
           <Subtitle>
             We are cutting edge web development consultants. We love all the techs. React, GraphQL, Apollo, TypeScript.
           </Subtitle>
