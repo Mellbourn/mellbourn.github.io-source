@@ -47,20 +47,15 @@ const Inner = styled.div`
 
 const LogoContainer = styled.div`
   display: grid;
-  grid-gap: 4rem;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  @media (max-width: 1200px) {
-    grid-gap: 3rem;
-  }
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
-    grid-gap: 2rem;
   }
 `;
 
 const BigTitle = styled.h1`
-  ${tw('text-5xl lg:text-6xl font-serif text-white mb-6 tracking-wide relative')};
+  ${tw('text-5xl lg:text-6xl font-serif text-white tracking-wide relative')};
   text-shadow: 0 5px 35px rgba(255, 255, 255, 0.15);
 `;
 
@@ -178,7 +173,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <LogoContainer>
-            <CapentaLogo size={200} />
+            <CapentaLogo size={150} />
             <BigTitle>Capenta</BigTitle>
           </LogoContainer>
           <Subtitle>
