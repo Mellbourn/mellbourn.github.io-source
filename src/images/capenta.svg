@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
-    <g transform="scale(0.7 0.7)">
+    <g transform="scale(1 1)">
         <circle cx="150" cy="150" r="150" fill="black"/>
         <g fill="transparent" stroke="yellow" stroke-linecap="round" stroke-width="20">
             <path d="M 200 150 A 50 50 0 0 1 103 167.1"/>
