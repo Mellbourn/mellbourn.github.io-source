@@ -1,8 +1,4 @@
 #!/usr/local/bin/zsh
-npx icon-gen -i src/images/capenta.svg -o static/favicons --ico
-rm static/favicons/favicon-*.png
-rm static/favicons/app.icns
-rm static/favicons/app.ico
 npx svgexport src/images/capenta.svg static/logos/logo-48.png 48:
 npx svgexport src/images/capenta.svg static/favicons/mstile-150x150.png 150:
 npx svgexport src/images/capenta.svg static/favicons/favicon-32x32.png 32:
@@ -13,3 +9,5 @@ npx svgexport src/images/capenta.svg static/logos/logo-512x512.png 512:
 npx svgexport src/images/capenta.svg static/favicons/android-chrome-192x192.png 192:
 npx svgexport src/images/capenta.svg static/logos/logo-192x192.png 192:
 npx svgexport src/images/capenta.svg static/logos/logo-1024.png 1024:
+pushd static/favicons
+convert ../logos/logo-1024.png -define icon:auto-resize=64,48,32,24,16 favicon.ico
