@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
     <g transform="scale(1 1)">
-        <g fill="transparent" stroke="yellow" stroke-linecap="round" stroke-width="20">
+        <g fill="transparent" stroke="black" stroke-linecap="round" stroke-width="20">
             <path d="M 200 150 A 50 50 0 0 1 103 167.1"/>
             <path d="M 192 222.744 A 84 84 0 0 1 85.656 95.988"/>
             <path d="M 91 252.188 A 118 118 0 0 1 150 32"/>
