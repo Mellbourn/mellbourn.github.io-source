@@ -1,13 +1,13 @@
 #!/usr/local/bin/zsh
-npx svgexport src/images/capenta.svg static/logos/logo-48.png 48:
-npx svgexport src/images/capenta.svg static/favicons/mstile-150x150.png 150:
-npx svgexport src/images/capenta.svg static/favicons/favicon-32x32.png 32:
-npx svgexport src/images/capenta.svg static/favicons/favicon-16x16.png 16:
-npx svgexport src/images/capenta.svg static/favicons/apple-touch-icon.png 180:
-npx svgexport src/images/capenta.svg static/favicons/android-chrome-512x512.png 512:
-npx svgexport src/images/capenta.svg static/logos/logo-512x512.png 512:
-npx svgexport src/images/capenta.svg static/favicons/android-chrome-192x192.png 192:
-npx svgexport src/images/capenta.svg static/logos/logo-192x192.png 192:
-npx svgexport src/images/capenta.svg static/logos/logo-1024.png 1024:
 pushd static/favicons
+npx svgexport capenta.svg ../logos/logo-48.png 48:
+npx svgexport capenta.svg mstile-150x150.png 150:
+npx svgexport capenta.svg favicon-32x32.png 32:
+npx svgexport capenta.svg favicon-16x16.png 16:
+npx svgexport capenta.svg apple-touch-icon.png 180:
+npx svgexport capenta.svg android-chrome-512x512.png 512:
+npx svgexport capenta.svg ../logos/logo-512x512.png 512:
+npx svgexport capenta.svg android-chrome-192x192.png 192:
+npx svgexport capenta.svg ../logos/logo-192x192.png 192:
+npx svgexport capenta.svg ../logos/logo-1024.png 1024:
 convert ../logos/logo-1024.png -define icon:auto-resize=64,48,32,24,16 favicon.ico

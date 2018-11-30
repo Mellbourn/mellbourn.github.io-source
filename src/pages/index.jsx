@@ -17,7 +17,6 @@ import { hidden } from '../styles/utils';
 import klas from '../images/klas.jpg';
 import rolf from '../images/rolf.jpg';
 import triangle from '../images/triangle.svg';
-import capentaLogo from '../images/capenta.svg';
 import CapentaLogo from '../components/CapentaLogo';
 
 const Divider = styled(ParallaxLayer)`
