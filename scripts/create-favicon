@@ -1,5 +1,5 @@
 #!/usr/local/bin/zsh
-npx icon-gen -i src/images/capenta.svg -o static/favicons -m favicon
+npx icon-gen -i src/images/capenta.svg -o static/favicons --ico
 rm static/favicons/favicon-*.png
 rm static/favicons/app.icns
 rm static/favicons/app.ico
