@@ -299,7 +299,7 @@ const Index = () => (
           <ContactText>
             Drop me a mail at <a href="mailto:klas@mellbourn.net">klas@mellbourn.net</a>, give me a call at{' '}
             <a href="tel:+46 708 80 00 00">+46 708 80 00 00</a>, or find me on other platforms:{' '}
-            <a href="https://stackoverflow.com/story/klasmellbourn">Stack Overflow</a> &{' '}
+            <a href="https://stackoverflow.com/users/46194/klas-mellbourn?tab=profile">Stack Overflow</a> &{' '}
             <a href="https://github.com/mellbourn">GitHub</a>
           </ContactText>
         </Inner>
